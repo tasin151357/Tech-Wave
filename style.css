@@ -1,0 +1,19 @@
+:root {
+    --bg-dark: #0f0524;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --accent: #ff00cc;
+    --text-white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
